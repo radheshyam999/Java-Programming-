@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ArrayPrograme",
+            "request": "launch",
+            "mainClass": "lf.ArrayPrograme",
+            "projectName": "javaTraning_d3aaeaf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataType",
+            "request": "launch",
+            "mainClass": "lf.DataType",
+            "projectName": "javaTraning_d3aaeaf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "lf.Hello",
+            "projectName": "javaTraning_d3aaeaf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        }
+    ]
+}
