@@ -109,6 +109,9 @@ void getCvv(int typeOfCard){
     }
 }
 
+  
+
+
 static boolean isLeapYear(int year){
     if (year % 4 == 0 || year % 400 == 0){
             if(year % 4 != 0 && year % 400 != 0) return false;
@@ -134,16 +137,18 @@ void  getDate(int year){
 
 
     public static void main(String[] args) {
-         Genratecard visaCards = (OutputStream op)->{
+        //  Genratecard visaCards = (OutputStream op)->{
             
-            new Demo().fifthedigitcard(op);
-         };
-         //visaCards.getCard(null); 
-         Month[] m ={Month.JANUARY,Month.FEBRUARY,Month.MARCH,Month.APRIL, Month.MAY, Month.JUNE, Month.JULY,Month.AUGUST,Month.SEPTEMBER,Month.OCTOBER,Month.NOVEMBER,Month.DECEMBER};
-         for (Month month : m) {
-            //System.out.println(month.length(isLeapYear(2022)));   
-         }
-
-             
+        //     new Demo().fifthedigitcard(op);
+        //  };
+        //  //visaCards.getCard(null); 
+        //  Month[] m ={Month.JANUARY,Month.FEBRUARY,Month.MARCH,Month.APRIL, Month.MAY, Month.JUNE, Month.JULY,Month.AUGUST,Month.SEPTEMBER,Month.OCTOBER,Month.NOVEMBER,Month.DECEMBER};
+        //  for (Month month : m) {
+        //     //System.out.println(month.length(isLeapYear(2022)));   
+        //  }     
+        //System.out.println(10%2==0 ?  "afvdvskfb" : "i am radhey");
+        
+        
+        
     }
 }

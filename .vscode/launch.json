@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "annotation.Test2",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "annotation.Test",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetsLearn",
+            "request": "launch",
+            "mainClass": "LetsLearn",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assginment",
+            "request": "launch",
+            "mainClass": "lamdas.Assginment",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
             "name": "Launch DemoFile",
             "request": "launch",
             "mainClass": "lamdas.DemoFile",
