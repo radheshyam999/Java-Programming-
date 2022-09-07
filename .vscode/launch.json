@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DemoMap",
+            "request": "launch",
+            "mainClass": "streamAPI.DemoMap",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
             "name": "Launch Test2",
             "request": "launch",
             "mainClass": "annotation.Test2",
