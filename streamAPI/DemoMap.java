@@ -21,7 +21,6 @@ public class DemoMap {
         List<String> li = Arrays.asList("abc","def","ghi","ABC");
         //List<String> ls = li.stream().map(ab-> ab.toUpperCase()).collect(Collectors.toList());
         DemoMap dm  = new DemoMap();
-     
         //System.out.println(li);
        // System.out.println(ls);
         li.stream().map(a->a.length()).forEach(System.out::print);
@@ -35,7 +34,6 @@ public class DemoMap {
             dm .new epm("123", "peter", 700000),
             dm .new epm("123", "robert", 50000)
         );
-        
         List<Integer> lisalary  = epmlis.stream().filter(obemp-> obemp.eSal > 6000).map(obemp->obemp.eSal).collect(Collectors.toList());
         System.out.println(lisalary.isEmpty());
     

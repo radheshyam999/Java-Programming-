@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Source",
+            "request": "launch",
+            "mainClass": "multiThreading.Source",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Learn",
+            "request": "launch",
+            "mainClass": "Learn",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyrunnableThreadDemoOne",
+            "request": "launch",
+            "mainClass": "multiThreading.MyrunnableThreadDemoOne",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDeadlockExample1",
+            "request": "launch",
+            "mainClass": "multiThreading.TestDeadlockExample1",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyDemoDeadLock",
+            "request": "launch",
+            "mainClass": "multiThreading.MyDemoDeadLock",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo2",
+            "request": "launch",
+            "mainClass": "io.Demo2",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "io.Demo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question",
+            "request": "launch",
+            "mainClass": "multiThreading.Question",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
             "name": "Launch DemoMap",
             "request": "launch",
             "mainClass": "streamAPI.DemoMap",
