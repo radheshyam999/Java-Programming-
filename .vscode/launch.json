@@ -2,6 +2,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "multiThreading.ExampleOneBook.Demo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FutureDemo",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.example7.FutureDemo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcutorDemo",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.example6.ExcutorDemo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.example5.ThreadPoolDemo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReentrantLockDemo4",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.example4.ReentrantLockDemo4",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReentrantLockDemo3",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.example3.ReentrantLockDemo3",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadReentrantDemo2",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.ThreadReentrantDemo2",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadDemoReentrantLock",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.ThreadDemoReentrantLock",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadGroupDemo",
+            "request": "launch",
+            "mainClass": "multiThreading.multthreadingEnhancment.ThreadGroupDemo",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadGroupExample",
+            "request": "launch",
+            "mainClass": "multiThreading.ThreadGroupExample",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SyncExample",
+            "request": "launch",
+            "mainClass": "multiThreading.SyncExample",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test3",
+            "request": "launch",
+            "mainClass": "Test3",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayLeanring",
+            "request": "launch",
+            "mainClass": "ArrayLeanring",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThirtyFive",
+            "request": "launch",
+            "mainClass": "problemSloving.ThirtyFive",
+            "projectName": "javaTraning_41b954c3"
+        },
+        {
+            "type": "java",
             "name": "Launch A",
             "request": "launch",
             "mainClass": "A",

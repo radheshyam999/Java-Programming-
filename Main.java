@@ -116,9 +116,12 @@ static long countSubarray(int n,  int[]a){
                 if(multi % 2 != 0){
                     count++;
                     break;
+                    
                 }
             }
         }
+     
+    
     } 
     
 return count;

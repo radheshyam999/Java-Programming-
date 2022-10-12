@@ -46,11 +46,11 @@ for(char[] sbr:c){
 
 }
 static void getMinMax(long a[], long n)  
-     {   long max = LONG.MIN_VALUE, min = LONG.MAX_VALUE;
+     {   long max = Long.MIN_VALUE, min = Long.MAX_VALUE;
         //pair p = new pair();
         //Write your code here
-        for(long  i = 0; i < n; i++){
-            if(max < a[i]) max = a[i];
+        for(int  i = 0; i < n; i++){
+            if(max < a[i]) max = a[1];
             if(min > a[i]) min = a[i];
             
         }

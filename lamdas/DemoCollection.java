@@ -1,9 +1,4 @@
 package lamdas;
-import static java.util.stream.Collectors.groupingBy;
-
-import java.io.BufferedReader;
-import java.util.Collection;
-import java.util.Map;
 public class DemoCollection {
 
 public static void main(String[] args) {
@@ -25,8 +20,7 @@ public static void main(String[] args) {
                 //or
      //Map<Currency, List<Transaction>> transactionsByCurrencies = transactions.stream() .filter((Transaction t) -> t.getPrice() > 1000) .collect(groupingBy(Transaction::getCurrency));
 
-    
-BufferedReader
+
 
 }
 

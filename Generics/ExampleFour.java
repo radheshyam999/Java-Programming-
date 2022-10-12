@@ -1,9 +1,9 @@
 package Generics;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Collection;
+import  java.util.List;
 
-import javafx.print.Collation;
 
 public class ExampleFour {
 
@@ -11,6 +11,6 @@ public class ExampleFour {
         ArrayList<String> l = new ArrayList<String>();
         List<String> l2 = new ArrayList<String>();
         Collection<String> c = new ArrayList<String>();
-        ArrayList<Object> ob = new ArrayList<String>();
+        ArrayList<Object> ob = new ArrayList<Object>();
     }
 }

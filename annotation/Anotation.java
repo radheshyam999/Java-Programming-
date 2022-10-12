@@ -10,13 +10,12 @@ public class Anotation {
     Annotations  are not documentable by deafault 
      
 */
-
-
-
+/***
     @Override
-    @SuppressWarnings("unchcked")
+    /@SuppressWarnings("unchcked")
     @Deprecated
     @FunctionalInterface
+    **/
     //metaannotation
     /***
      * java.lang.annotation.Annotation
@@ -25,12 +24,12 @@ public class Anotation {
      * 
      */
     
-    @Inherited   //we use this annotation to provide feature to annotation to get inherated 
+    //@Inherited   //we use this annotation to provide feature to annotation to get inherated
     
-    @Retention
-    @Documented  // we can use this annotation to provide spcial faeture to annotation to get documented 
+   // @Retention
+    //@Documented  // we can use this annotation to provide spcial faeture to annotation to get documented
 
-    @Target   // 
+    //@Target   //
 
 /** 
     Customized  annotation

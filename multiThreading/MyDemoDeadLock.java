@@ -1,11 +1,10 @@
 package multiThreading;
  
 
-
 /* A
  */
-class A {
-       synchronized void first(B b){
+class Ab {
+       synchronized void first(Bc b){
             for (int i = 0; i < 10; i++) {
                 System.out.println("I am A class A's First method " + Thread.currentThread().getName());
             }
@@ -29,9 +28,9 @@ class A {
 
 /**
  * B
- */ class B {
+ */ class Bc {
 
-    synchronized void begning(A a){
+    synchronized void begning(Ab a){
         for (int i = 0; i < 10; i++) {
             System.out.println("I am  class B's begning methods " + Thread.currentThread().getName());
         }
@@ -59,8 +58,8 @@ public class MyDemoDeadLock {
 
 
     public static void main(String[] args) {
-        A a  = new A();
-        B b  = new B();
+        Ab a  = new Ab();
+        Bc b  = new Bc();
         a.first(b);
         Thread t = new Thread(()->b.begning(a));
         t.start();

@@ -13,6 +13,7 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/*
 class CharCost{
     char a;
     int valA;
@@ -24,30 +25,30 @@ class CharCost{
 
 
 
-// static int solve(int x , int[] arr ){
-//     int sum = 0;
-//     int n = arr.length;
-//     int largestDivisible = -1,
-//         minimum = arr[0];
-//     for (int i = 0; i < n; i++){
-//         sum += arr[i];
-//         if (arr[i] % x == 0 &&
-//             largestDivisible < arr[i])
-//             largestDivisible = arr[i];
+ static int solve(int x , int[] arr ){
+     int sum = 0;
+     int n = arr.length;
+     int largestDivisible = -1,
+         minimum = arr[0];
+     for (int i = 0; i < n; i++){
+         sum += arr[i];
+         if (arr[i] % x == 0 &&
+             largestDivisible < arr[i])
+             largestDivisible = arr[i];
  
-//         if (arr[i] < minimum)
-//             minimum = arr[i];
-//         }
-//         if (largestDivisible == -1) return sum;
-//         int sumAfterOperation = sum - minimum - largestDivisible +
-//                             (x * minimum) + (largestDivisible / x); 
-//     return Math.min(sum, sumAfterOperation);
-// }
+         if (arr[i] < minimum)
+             minimum = arr[i];
+         }
+         if (largestDivisible == -1) return sum;
+         int sumAfterOperation = sum - minimum - largestDivisible +
+                             (x * minimum) + (largestDivisible / x);
+     return Math.min(sum, sumAfterOperation);
+ }
 
 static boolean  isItBranchable(int n){
     for (int i = 2; i <=n && n % 2 == 0; i++) {
         if(n % i == 0) return true;
-        
+
     }
     return false;
 }
@@ -75,7 +76,7 @@ static int kthSmallest(int arr[], int l, int r, int k)
         Arrays.stream(arr).sorted().limit(k).max();
         System.out.println(op.getAsInt());
         return op.getAsInt();
-        
+
     }
 
 
@@ -118,20 +119,20 @@ static int kthSmallest(int arr[], int l, int r, int k)
     }
 
 
-// int arr[] = { 5, -1, 5, 5, 6 };
-    // int x = 3;
-    // System.out.println(solve(10));
+ int arr[] = { 5, -1, 5, 5, 6 };
+     int x = 3;
+     System.out.println(solve(10));
 
-    //kthSmallest(new int[]{55,66,222,9,2,1,89}, 1, 1, 6);
-    // Scanner sc  = new Scanner(System.in);
-    // String line = sc.nextLine();
-    // char c[] = line.toCharArray();
-    // for (int i = 0; i < c.length; i++) {
-    //         if((c[i] >='a' && c[i] <='z') && i%2 == 0 ){
-    //                c[i] =  Character.toUpperCase(c[i]);
-    //         }
-    // }
-    // System.out.println(new String(c));
+    kthSmallest(new int[]{55,66,222,9,2,1,89}, 1, 1, 6);
+     Scanner sc  = new Scanner(System.in);
+     String line = sc.nextLine();
+     char c[] = line.toCharArray();
+     for (int i = 0; i < c.length; i++) {
+             if((c[i] >='a' && c[i] <='z') && i%2 == 0 ){
+                    c[i] =  Character.toUpperCase(c[i]);
+             }
+     }
+     System.out.println(new String(c));
 
 int calculate(int []arr, int index){
     int calcu = 1;
@@ -182,29 +183,29 @@ return  sum;
 
 
 public static void main(String[] args){
-// {  int a[] = {2,3,1,2,3};
-//     int i = (int) Arrays.stream(a).
-//     System.out.println(i);
-        // int valueN[] = {5,10,15,40};
-        // int valueM[] = {2,3,20};
-        // LinkedList ls = new LinkedList<>();
-        // //ls.stream().
-        // List<int[]> la = Arrays.asList(valueM,valueN).stream().sorted().collect(Collectors.toList());
+ {  int a[] = {2,3,1,2,3};
+     int i = (int) Arrays.stream(a).
+     System.out.println(i);
+         int valueN[] = {5,10,15,40};
+         int valueM[] = {2,3,20};
+         LinkedList ls = new LinkedList<>();
+         //ls.stream().
+         List<int[]> la = Arrays.asList(valueM,valueN).stream().sorted().collect(Collectors.toList());
         
 
 
     ////////////////// your other code is written here 
     
-    //System.out.println(areBracketsBalanced(line));
+    System.out.println(areBracketsBalanced(line));
 
     
-    // char var1  = 'a';
-    // char var2  = 'C';
-    // System.out.println((int)var1 + "  " +  (int)var2);
-//     int A[] = ProductArray(new int[]{2,3,7,5});
-// for (int i : A) {
-//     System.out.print(i + " ");
-// }
+     char var1  = 'a';
+     char var2  = 'C';
+     System.out.println((int)var1 + "  " +  (int)var2);
+     int A[] = ProductArray(new int[]{2,3,7,5});
+ for (int i : A) {
+     System.out.print(i + " ");
+ }
 
 
 
@@ -215,3 +216,4 @@ public static void main(String[] args){
 
 
 
+*/

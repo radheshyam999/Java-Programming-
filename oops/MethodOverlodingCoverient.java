@@ -20,13 +20,13 @@ String s(String m){
 
 
 public class MethodOverlodingCoverient extends InnerMethodOverlodingCoverient {
-        Void s(Object s){
-        return new Void(){
-            {
-            System.out.println("i am instance");
-            }
-        };
-        }
+//        Void s(Object s){
+//        return {
+//            {
+//            System.out.println("i am instance");
+//            }
+//
+//        }
     public static void main(String[] args) {
         InnerMethodOverlodingCoverient ob = new InnerMethodOverlodingCoverient();
         ob.s("Radhey");
